@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .layout {
+    width: 1366px;
+    height: 768px;
+    background-color: black;
+    display: grid;
+    grid:
+      "sidebar body" 1fr
+      / 0.5fr 1fr;
+    gap: 15px;
+  }
+  
+  .sidebar { grid-area: sidebar; }
+  .body { grid-area: body; }
+
+  
+
+  body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+.top-right-navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    height: 1px;
+    right: 13px;
+    margin-left: 79%;
+    margin-top: 15px;
+}
+
+/* Style the navigation list */
+.top-right-navbar ul {
+    list-style: none;
+ 
+}
+
+/* Style the navigation items */
+.top-right-navbar ul li {
+    display: inline;
+    margin-left: 1px;
+    gap: 2px;
+}
+
+/* Style the links in the navigation */
+.top-right-navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+  
+/* CSS */
+#button-56 {
+  align-items: center;
+  background-color: rgb(202, 125, 138);
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: inline;
+  font-family: Inter,sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+left: 49.6%;
+bottom: 48%;
+}
+
+#button-56:after {
+  background-color:rgb(181, 120, 130);
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+#button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+#button-56:active {
+  background-color: rgb(218, 165, 174);
+  outline: 0;
+}
+
+#button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  #button-56 {
+    padding: 0 40px;
+  }
+}
+
+#button-57 {
+  align-items: center;
+  background-color: rgb(202, 125, 138);
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: inline;
+  font-family: Inter,sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+left: 34.5%;
+bottom: 34.2%;
+}
+
+#button-57:after {
+  background-color:rgb(181, 120, 130);
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+#button-57:hover:after {
+  transform: translate(0, 0);
+}
+
+#button-57:active {
+  background-color: rgb(218, 165, 174);
+  outline: 0;
+}
+
+#button-57:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  #button-57 {
+    padding: 0 40px;
+  }
+}
+</style>
+<body>
+
+  <script>
+    // Function to navigate to the next page
+    function goToNextPage() {
+        window.location.href = "C:\Users\pranj\OneDrive\Desktop\arts.html"; // Replace "next_page.html" with the actual URL of the next page.
+    }
+
+    // Attach a click event handler to the button
+    document.getElementsByClassName("button-57").addEventListener("click", goToNextPage);
+</script>
+
+    <section class="layout">
+        <div class="sidebar">
+            <div class="buttontext">
+            <img src="C:\Users\pranj\Downloads\gif.gif"width="420px">
+            </div>
+        </div>       
+        <div class="body">
+            <header>
+                <img src="C:\Users\pranj\OneDrive\Pictures\Screenshots\header.png"width="520px">
+            </header>
+            <div class="theme">
+            <img src="C:\Users\pranj\Downloads\theme1.gif">
+            </div>
+           
+       <nav class="top-right-navbar">
+        <ul>
+            <li><a href="https://www.instagram.com/pranjj.al/"><img src="C:\Users\pranj\Downloads\instagram_408758.png"width="18%"></a></li>
+            <li><a href="https://www.youtube.com/@codeclub02/about"><img src="C:\Users\pranj\Downloads\youtube_408757.png"width="18%"></a></li>
+            <li><a href="https://www.linkedin.com/in/pranjal-desai-b46680261/"><img src="C:\Users\pranj\Downloads\linkedin_3536505.png"width="18%"></a></li>
+            <li><a href="https://www.freelancer.com/u/Pranjjal"><img src="C:\Users\pranj\OneDrive\Desktop\freelancer.png"width="18%"></a></li>
+            <li><a href="https://github.com/pranjja1"><img src="C:\Users\pranj\Downloads\github_733553.png"width="18%"></a></li>
+        </ul>
+    </nav>
+<button id="button-56">
+  <a href="C:\Users\pranj\OneDrive\Desktop\blog.html">Blog</a></button>
+  <button id="button-57">
+    <a href="arts.html">Painting</a></button>
+    </div>
+
+
+   
+
+
+      </section>
+</body>
+</html>
+
+
+  
